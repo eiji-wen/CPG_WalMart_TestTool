@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WalmartIntentTestActivity!</string>
+    <string name="app_name">Intent Test</string>
+    <string name="DNS_Suffix">DNS Suffix Intent</string>
+    <string name="USER_Class">User Class</string>
+    <string name="Bootup_With_Battery">BOOTUP_WITH_BATTERY</string>
+    <string name="Bootup_With_Battery_ON">BOOTUP_WITH_BATTERY_ON</string>
+    <string name="Bootup_With_Battery_OFF">BOOTUP_WITH_BATTERY_OFF</string>
+    <string name="Wake_Up_Sources">Wake Up Source Intent</string>
+    <string name="Wake_Up_Sources_Keypad">Keypad</string>
+    <string name="Wake_Up_Sources_Keypad_Enable">WAKEUP_KEYPD_ENABLE</string>
+    <string name="Wake_Up_Sources_Keypad_Disable">WAKEUP_KEYPD_DISABLE</string>
+    <string name="Wake_Up_Sources_Gsensor">Gsensor</string>
+    <string name="Wake_Up_Sources_Gsensor_Enable">WAKEUP_GSENSOR_ENABLE</string>
+    <string name="Wake_Up_Sources_Gsensor_Disable">WAKEUP_GSENSOR_DISABLE</string>
+    <string name="Wake_Up_Sources_Bt">Bt</string>
+    <string name="Wake_Up_Sources_Bt_Enable">WAKEUP_BT_ENABLE</string>
+    <string name="Wake_Up_Sources_Bt_Disable">WAKEUP_BT_DISABLE</string>
+    <string name="Advanced_WiFi_Settings">Advanced Wi-Fi Settings</string>
+    <string name="wifi_notify_open_networks">"Network notification"</string>
+    <string name="wifi_notify_open_networks_summary">"Notify me when an open network is available"</string>
+    <string name="wifi_poor_network_detection">"Avoid poor connections"</string>
+    <string name="wifi_poor_network_detection_summary">"Don\'t use a WiFi network unless it has a good Internet connection"</string>
+    <string name="wifi_setting_frequency_band_title">"Wi-Fi frequency band"</string>
+    <string name="wifi_setting_frequency_band_summary">"Specify the frequency range of operation"</string>
+    <string name="wifi_setting_sleep_policy_title">"Keep Wi-Fi on during sleep"</string>
+    <string name="Input_Method">Input Method Intent</string>    
+    <string name="Input_Method_Full">INPUT_METHOD_FULL</string>
+    <string name="Input_Method_Eng">INPUT_METHOD_ENG</string>
+    <string name="Input_Method_Eng_Chinese">INPUT_METHOD_ENG_CHINESE</string>
+    <string name="Home_Key">Home Key Intent</string>
+    <string name="Home_Key_Enable">HOMEKEY_LPRESS_ENABLE</string>
+    <string name="Home_Key_Disable">HOMEKEY_LPRESS_DISABLE</string>
+    <string name="Proxy_Setting">Proxy Setting</string>
+    <string name="UserClass">UserClass</string>
+    <string name="Locale_Language">Locale Language</string>
+    <string name="Mount_SDCard">Mount SDCard</string>
+    <string name="Sent_Intent">Send Intet</string>
+    <string name=":">:</string>
+    <string name="alert_dialog_two_buttons2_msg">
+        Version 5.0\ndate:19/04/2013 
+    </string>   
+</resources>

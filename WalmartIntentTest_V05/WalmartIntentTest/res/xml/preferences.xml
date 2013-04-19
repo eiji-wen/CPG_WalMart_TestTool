@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="dns_suffix"
+        android:title="@string/DNS_Suffix" />
+    <PreferenceScreen
+        android:key="user_class"
+        android:title="@string/USER_Class" />
+
+    <ListPreference
+        android:defaultValue="UISETTING_FULL"
+        android:dialogTitle="@string/Bootup_With_Battery"
+        android:entries="@array/Bootup_With_Battery"
+        android:entryValues="@array/Bootup_With_Battery"
+        android:key="Bootup_With_Battery"
+        android:title="@string/Bootup_With_Battery" />
+    <ListPreference
+        android:dialogTitle="@string/Locale_Language"
+        android:entries="@array/Locale_Language"
+        android:entryValues="@array/Locale_Language"
+        android:key="locale"
+        android:title="@string/Locale_Language" />
+    <ListPreference
+        android:dialogTitle="@string/Mount_SDCard"
+        android:entries="@array/Mount_SDCard"
+        android:entryValues="@array/Mount_SDCard"
+        android:key="mountsdcard"
+        android:title="@string/Mount_SDCard" />
+
+    <PreferenceScreen
+        android:key="screen_preference"
+        android:title="@string/Wake_Up_Sources" >
+        <ListPreference
+            android:defaultValue="WAKEUP_KEYPD_DISABLE"
+            android:dialogTitle="@string/Wake_Up_Sources_Keypad"
+            android:entries="@array/Wake_Up_Sources_Keypad"
+            android:entryValues="@array/Wake_Up_Sources_Keypad"
+            android:key="wakeup_sources_Keypad"
+            android:title="@string/Wake_Up_Sources_Keypad" />
+        <ListPreference
+            android:defaultValue="WAKEUP_GSENSOR_DISABLE"
+            android:dialogTitle="@string/Wake_Up_Sources_Gsensor"
+            android:entries="@array/Wake_Up_Sources_Gsensor"
+            android:entryValues="@array/Wake_Up_Sources_Gsensor"
+            android:key="wakeup_sources_Gsensor"
+            android:title="@string/Wake_Up_Sources_Gsensor" />
+        <ListPreference
+            android:defaultValue="WAKEUP_BT_DISABLE"
+            android:dialogTitle="@string/Wake_Up_Sources_Bt"
+            android:entries="@array/Wake_Up_Sources_Bt"
+            android:entryValues="@array/Wake_Up_Sources_Bt"
+            android:key="wakeup_sources_Bt"
+            android:title="@string/Wake_Up_Sources_Bt" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="proxy_setting"
+        android:title="@string/Proxy_Setting" />
+    <PreferenceScreen
+        android:key="advanced"
+        android:title="@string/Advanced_WiFi_Settings" >
+        <CheckBoxPreference
+            android:key="notify_open_networks"
+            android:summary="@string/wifi_notify_open_networks"
+            android:title="@string/wifi_notify_open_networks_summary" />
+
+        <ListPreference
+            android:entries="@array/wifi_sleep_policy_entries"
+            android:entryValues="@array/wifi_sleep_policy_values"
+            android:key="sleep_policy"
+            android:title="@string/wifi_setting_sleep_policy_title" />
+
+        <CheckBoxPreference
+            android:key="avoid_poor_connections"
+            android:summary="@string/wifi_poor_network_detection_summary"
+            android:title="@string/wifi_poor_network_detection" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:entries="@array/wifi_frequency_band_entries"
+            android:entryValues="@array/wifi_frequency_band_values"
+            android:key="frequency_band"
+            android:summary="@string/wifi_setting_frequency_band_summary"
+            android:title="@string/wifi_setting_frequency_band_title" />
+        <PreferenceScreen
+        android:key="sentintent"
+        android:title="@string/Sent_Intent"/>
+        
+    </PreferenceScreen>
+
+    <ListPreference
+        android:defaultValue="INPUT_METHOD_FULL"
+        android:dialogTitle="@string/Input_Method"
+        android:entries="@array/Input_Method"
+        android:entryValues="@array/Input_Method"
+        android:key="input_method"
+        android:title="@string/Input_Method" />
+    <ListPreference
+        android:defaultValue="HOMEKEY_LPRESS_ENABLE"
+        android:dialogTitle="@string/Home_Key"
+        android:entries="@array/Home_Key"
+        android:entryValues="@array/Home_Key"
+        android:key="home_key"
+        android:title="@string/Home_Key" />
+
+</PreferenceScreen>
