@@ -30,6 +30,7 @@ import android.widget.Toast;
 
 public class WalmartIntentTestActivity extends PreferenceActivity implements
 		Preference.OnPreferenceChangeListener {
+	//Eiji@@0130528 add a new comment for testing ReviewBoard
 	private static final String TAG 					   = "WalmartIntentTestActivity";
 	private static final String KEY_DNS_SUFFIX 			   = "dns_suffix";
 	private static final String KEY_BOOTUP_WITH_BATTERY    = "Bootup_With_Battery";
