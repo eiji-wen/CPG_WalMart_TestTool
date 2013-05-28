@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- add a comment for testing ReviewBoard and git -->
     <string name="hello">Hello World, WalmartIntentTestActivity!</string>
     <string name="app_name">Intent Test</string>
     <string name="DNS_Suffix">DNS Suffix Intent</string>
